@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#101418" />
+    <meta
+      name="description"
+      content="Temukan papan surfing pilihan untuk ombak Indonesia. Papan berkualitas, panduan ukuran, dan konsultasi langsung dari Papan Ombak."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:title" content="Papan Surfing Semarang — Temukan papanmu, temukan ombakmu" />
+    <meta
+      property="og:description"
+      content="Papan surfing pilihan untuk petualangan ombakmu berikutnya."
+    />
+    <meta property="og:url" content="https://example.com/" />
+    <link rel="canonical" href="https://example.com/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Papan Surfing Semarang — Papan surfing untuk ombak Indonesia</title>
+    <script>
+      window.STORE_CONFIG = {"storeName":"Papan Surfing Semarang","siteUrl":"https://example.com","whatsappNumber":"6288289226293","bankName":"BCA","bankAccountName":"DAFFA ADITIA RINANDRA","bankAccountNumber":"1270273439","qrImageUrl":"assets/qris.png","qrCodeText":""};
+    </script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#konten">Langsung ke konten</a>
+
+    <div class="top-bar">
+      <div class="top-bar-inner">
+        <div class="top-bar-contact">
+          <a class="top-bar-item whatsapp-link" id="topbar-phone" href="#kontak" data-message="Halo, saya ingin bertanya tentang papan surfing.">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+            <span id="topbar-phone-text">WhatsApp</span>
+          </a>
+          <span class="top-bar-item" id="topbar-email">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 6h18v12H3V6Zm0 0 9 7 9-7" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+            Kirim ke seluruh Indonesia
+          </span>
+        </div>
+        <div class="top-bar-social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="3.6" stroke="currentColor" stroke-width="1.6"/><circle cx="17" cy="7" r="1.1" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 4v9.5a4 4 0 1 1-4-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M14 5.5A5.5 5.5 0 0 0 19.5 8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="3" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 9.5v5l4.5-2.5-4.5-2.5Z" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14.5 8.5V7a2 2 0 0 1 2-2H18V3h-2.5A4 4 0 0 0 11.5 7v1.5H9V11h2.5v10H15V11h2.5l.5-2.5h-3.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#beranda" aria-label="Papan Ombak, beranda">
+        <img class="brand-logo" src="assets/logo.png" alt="" />
+        <span class="brand-name">Papan Surfing Semarang</span>
+        <span class="brand-sub">PAPAN SURFING</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Buka menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Navigasi utama">
+        <a href="#beranda">Beranda</a>
+        <div class="nav-dropdown">
+          <a href="#koleksi" class="nav-dropdown-toggle">
+            Produk
+            <svg viewBox="0 0 12 8" fill="none" aria-hidden="true"><path d="M1 1.5 6 6.5 11 1.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </a>
+          <div class="nav-dropdown-menu">
+            <button type="button" data-filter-link="semua">Semua Papan</button>
+            <button type="button" data-filter-link="shortboard">Shortboard</button>
+            <button type="button" data-filter-link="longboard">Longboard</button>
+            <button type="button" data-filter-link="softboard">Softboard</button>
+          </div>
+        </div>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#profil">Profil</a>
+        <a href="#panduan">Panduan</a>
+        <a href="#kontak">Hubungi Kami</a>
+      </nav>
+      <button class="header-cta cart-trigger" type="button" aria-label="Buka keranjang">
+        <svg viewBox="0 0 22 22" fill="none" aria-hidden="true"><path d="M3 4h2l2.1 9.1a2 2 0 0 0 2 1.55h7.3a2 2 0 0 0 1.95-1.55L20 7H6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9.5" cy="18" r="1.2" fill="currentColor"/><circle cx="16.5" cy="18" r="1.2" fill="currentColor"/></svg>
+        <span>Keranjang</span><span class="cart-count" id="cart-count" aria-live="polite">0</span>
+      </button>
+    </header>
+
+    <nav class="category-strip" aria-label="Kategori produk">
+      <div class="category-strip-inner">
+        <button type="button" data-filter-link="semua">Semua Papan</button>
+        <button type="button" data-filter-link="shortboard">Shortboard</button>
+        <button type="button" data-filter-link="longboard">Longboard</button>
+        <button type="button" data-filter-link="softboard">Softboard</button>
+      </div>
+    </nav>
+
+    <main id="konten">
+      <section class="hero" id="beranda">
+        <div class="hero-slogan" aria-hidden="true">
+          <p class="hero-script"><span>Get wet</span><strong>Get moving</strong><span>Go next level</span></p>
+          <h1 class="visually-hidden">Papan surfing untuk ombak Indonesia</h1>
+        </div>
+        <div class="hero-shop-wrap">
+          <a class="hero-shop" href="#koleksi">Shop Now
+            <svg viewBox="0 0 22 22" fill="none" aria-hidden="true"><path d="M3 4h2l2.1 9.1a2 2 0 0 0 2 1.55h7.3a2 2 0 0 0 1.95-1.55L20 7H6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9.5" cy="18" r="1.2" fill="currentColor"/><circle cx="16.5" cy="18" r="1.2" fill="currentColor"/></svg>
+          </a>
+        </div>
+        <div class="hero-band">SURE ANYWHERE, ANYTIME, AT ANY LEVEL</div>
+      </section>
+
+      <section class="benefit-strip" aria-label="Keunggulan Papan Ombak">
+        <div class="benefit-item"><span class="benefit-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span><div><strong>Dikurasi surfer lokal</strong><span>Pilihan yang sudah teruji</span></div></div>
+        <div class="benefit-item"><span class="benefit-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span><div><strong>Kirim ke seluruh negeri</strong><span>Aman sampai depan pintu</span></div></div>
+        <div class="benefit-item"><span class="benefit-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 24c0-2.76-2.24-5-5-5s-5 2.24-5 5c0 1.66 1.34 3 3 3s3-1.34 3-3c0-1.66-1.34-3-3-3s-3 1.34-3 3c0 2.76 2.24 5 5 5s5-2.24 5-5z"/></svg></span><div><strong>Teman pilih papan</strong><span>Konsultasi tanpa biaya</span></div></div>
+      </section>
+
+      <section class="collection section-wrap" id="koleksi">
+        <div class="section-heading">
+          <div><span class="eyebrow"><span class="eyebrow-line"></span> TEMUKAN PAPAN YANG PAS</span><h2>Siap menyambut<br />ombak berikutnya?</h2></div>
+          <p>Dari ombak kecil yang santai sampai reef break yang menantang. Ada papan untuk tiap gaya dan tiap level.</p>
+        </div>
+        <div class="filter-bar" role="group" aria-label="Filter jenis papan">
+          <button class="filter-button is-active" type="button" data-filter="semua" aria-pressed="true">Semua papan <span>04</span></button>
+          <button class="filter-button" type="button" data-filter="shortboard" aria-pressed="false">Shortboard</button>
+          <button class="filter-button" type="button" data-filter="longboard" aria-pressed="false">Longboard</button>
+          <button class="filter-button" type="button" data-filter="softboard" aria-pressed="false">Softboard</button>
+        </div>
+        <div class="product-grid">
+          <article class="product-card" data-category="shortboard">
+            <a class="product-image product-image-one" href="#kontak" data-message="Halo, saya tertarik dengan Nusa Twin Fin. Apakah masih tersedia?" aria-label="Tanya tentang Nusa Twin Fin">
+              <span class="product-label">Favorit surfer</span><span class="product-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="product-info"><div><p class="product-category">SHORTBOARD · ALL LEVEL</p><h3>Nusa Twin Fin</h3></div><span class="product-price">Rp 4.850.000</span></div>
+            <p class="product-detail">Lebih lincah, lebih lepas. Untuk mengejar garis ombak yang seru.</p>
+            <button class="add-to-cart" type="button" data-product-id="nusa-twin-fin" data-price="4850000">Tambah ke keranjang <span aria-hidden="true">+</span></button>
+          </article>
+          <article class="product-card" data-category="longboard">
+            <a class="product-image product-image-two" href="#kontak" data-message="Halo, saya tertarik dengan Sore Longboard. Apakah masih tersedia?" aria-label="Tanya tentang Sore Longboard">
+              <span class="product-label">Cruiser pilihan</span><span class="product-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="product-info"><div><p class="product-category">LONGBOARD · BEGINNER FRIENDLY</p><h3>Sore Longboard</h3></div><span class="product-price">Rp 5.600.000</span></div>
+            <p class="product-detail">Untuk glide yang tenang dan noseride yang bikin senyum.</p>
+            <button class="add-to-cart" type="button" data-product-id="sore-longboard" data-price="5600000">Tambah ke keranjang <span aria-hidden="true">+</span></button>
+          </article>
+          <article class="product-card" data-category="softboard">
+            <a class="product-image product-image-three" href="#kontak" data-message="Halo, saya tertarik dengan Pagi Softboard. Apakah masih tersedia?" aria-label="Tanya tentang Pagi Softboard">
+              <span class="product-label">Asyik buat belajar</span><span class="product-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="product-info"><div><p class="product-category">SOFTBOARD · PEMULA</p><h3>Pagi Softboard</h3></div><span class="product-price">Rp 2.750.000</span></div>
+            <p class="product-detail">Lebih ramah untuk belajar, lebih banyak waktu di atas ombak.</p>
+            <button class="add-to-cart" type="button" data-product-id="pagi-softboard" data-price="2750000">Tambah ke keranjang <span aria-hidden="true">+</span></button>
+          </article>
+          <article class="product-card" data-category="shortboard">
+            <a class="product-image product-image-four" href="#kontak" data-message="Halo, saya tertarik dengan Selatan Fish. Apakah masih tersedia?" aria-label="Tanya tentang Selatan Fish">
+              <span class="product-label">Stok terbatas</span><span class="product-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="product-info"><div><p class="product-category">FISH · INTERMEDIATE</p><h3>Selatan Fish</h3></div><span class="product-price">Rp 4.250.000</span></div>
+            <p class="product-detail">Volume lebih lega untuk tetap melaju di ombak yang lembut.</p>
+            <button class="add-to-cart" type="button" data-product-id="selatan-fish" data-price="4250000">Tambah ke keranjang <span aria-hidden="true">+</span></button>
+          </article>
+        </div>
+        <div class="collection-footer"><span>Belum yakin papan mana yang cocok?</span><a class="text-link whatsapp-link" href="#kontak" data-message="Halo, bantu saya memilih papan surfing yang cocok ya.">Tanya teman ombak kami <span aria-hidden="true">→</span></a></div>
+      </section>
+
+      <section class="story" id="tentang">
+        <div class="story-image" role="img" aria-label="Suasana pantai tempat surfer lokal berkumpul"></div>
+        <div class="story-copy">
+          <span class="eyebrow"><span class="eyebrow-line"></span> DARI PANTAI, UNTUK PANTAI</span>
+          <h2>Bukan cuma papan.<br />Ini soal rasa.</h2>
+          <p>Kami percaya papan yang tepat bukan yang paling mahal—tapi yang bikin kamu ingin kembali ke laut. Setiap pilihan kami dibuat dengan masukan surfer lokal, untuk karakter ombak yang kita kenal.</p>
+          <a class="button button-light whatsapp-link" href="#kontak" data-message="Halo, saya ingin kenal lebih jauh dengan Papan Ombak.">Kenalan dengan kami <span aria-hidden="true">↗</span></a>
+          <div class="story-signature"><span class="signature-mark">p/o</span><span>Temanmu di setiap pasang surut.</span></div>
+        </div>
+      </section>
+
+      <section class="profile section-wrap" id="profil">
+        <div class="section-heading">
+          <div><span class="eyebrow"><span class="eyebrow-line"></span> KENALAN LEBIH DEKAT</span><h2>Profil perusahaan</h2></div>
+          <p>Papan selancar kayu balsa handmade. Dari lahan sendiri di lereng Gunung Ungaran sampai jadi papan yang siap ombak.</p>
+        </div>
+        <div class="profile-grid">
+          <article class="profile-card">
+            <h3>Siapa Kami</h3>
+            <p>Extro Wooden Surfboard didirikan oleh Bp. Aris Riyanto, yang telah bekerja di industri kayu hampir 30 tahun—dari proses pengolahan, oven (kiln dry), woodworking, hingga furniture. Sejak 2014 belajar tentang papan selancar, dan mulai membuat konstruksi kayu pada 2016. Setelah hampir 10 tahun menjadi pemasok bahan bagi orang lain, kini kami hadir dengan papan selancar berkonstruksi kayu berkualitas dan harga yang lebih baik.</p>
+          </article>
+          <article class="profile-card">
+            <h3>Visi</h3>
+            <p>Menjadikan papan selancar kayu balsa lebih dikenal dan diminati surfer muda—bukan sekadar gaya, tapi pilihan yang terjangkau, ringan, dan kuat.</p>
+          </article>
+          <article class="profile-card">
+            <h3>Misi</h3>
+            <ul>
+              <li>Menanam balsa sendiri agar kualitas terjaga dan terjangkau</li>
+              <li>Produksi hollow wooden handmade 100% dengan finishing fiber & resin</li>
+              <li>Harga lebih baik untuk papan konstruksi kayu berkualitas</li>
+              <li>Terus mengembangkan hasil yang lebih baik</li>
+            </ul>
+          </article>
+        </div>
+        <div class="profile-company">
+          <img src="assets/logo.png" alt="Logo XTRO Wooden Surfboards" loading="lazy" />
+          <dl>
+            <div><dt>Nama perusahaan</dt><dd>Semarang Kayu Surfboard</dd></div>
+            <div><dt>Jenis usaha</dt><dd>Kerajinan Kayu</dd></div>
+            <div><dt>Pendirian usaha</dt><dd>2024</dd></div>
+            <div><dt>Alamat</dt><dd>Jl. Watugunung V/197, Krapyak, Kota Semarang</dd></div>
+            <div><dt>Unit produksi 1</dt><dd>Jl. Pucang Argo, Pucang Gading, Demak</dd></div>
+            <div><dt>Unit produksi 2</dt><dd>Jl. Parang Tritis 11, Bantul, Yogyakarta</dd></div>
+          </dl>
+        </div>
+        <div class="profile-units">
+          <figure><img src="assets/nursery.jpg" alt="Tempat semai bibit balsa di kebun balsa XTRO" loading="lazy" /><figcaption>Extro Plantation<span>Sejak 2019, kami menanam pohon balsa sendiri di lereng Gunung Ungaran dengan total luas sekitar 4 Ha.</span></figcaption></figure>
+          <figure><img src="assets/lumber.jpg" alt="Penggergajian kayu balsa di Extro Lumberyard" loading="lazy" /><figcaption>Extro Lumberyard<span>Proses penebangan, penggergajian, kiln dry (oven), hingga moulding dilakukan sendiri demi kualitas terbaik.</span></figcaption></figure>
+          <figure><img src="assets/workshop.jpg" alt="Perakitan papan selancar kayu di workshop XTRO" loading="lazy" /><figcaption>Extro Production<span>Maha Karya Produk: hollow wooden handmade dari kayu balsa yang ringan dan kuat, dilapis fiber cloth dan resin—tahan air dan siap dipakai profesional di pantai.</span></figcaption></figure>
+        </div>
+        <div class="profile-stats">
+          <div class="profile-stat"><strong>30 th</strong><span>Pengalaman kayu</span></div>
+          <div class="profile-stat"><strong>2016</strong><span>Papan kayu pertama</span></div>
+          <div class="profile-stat"><strong>±4 Ha</strong><span>Lahan balsa</span></div>
+          <div class="profile-stat"><strong>100%</strong><span>Handmade hollow wood</span></div>
+        </div>
+      </section>
+
+      <section class="guide" id="panduan">
+        <div class="guide-intro">
+          <span class="eyebrow"><span class="eyebrow-line"></span> NGGAK PERLU BINGUNG</span>
+          <h2>Papan yang pas<br />dimulai dari sini.</h2>
+          <p>Baru mulai atau sudah sering mengejar ombak? Kami siap bantu mencocokkan papan dengan gaya, pengalaman, dan ombak favoritmu.</p>
+          <a class="text-link whatsapp-link" href="#kontak" data-message="Halo, saya ingin konsultasi pilih papan. Berat badan dan level saya: ">Konsultasi gratis <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="guide-steps">
+          <article class="guide-step"><span>01</span><div><h3>Ceritakan levelmu</h3><p>Baru belajar, sudah rutin, atau siap tantangan baru?</p></div><span class="step-symbol">↗</span></article>
+          <article class="guide-step"><span>02</span><div><h3>Pilih ombak favorit</h3><p>Ombak kecil yang ramah atau dinding ombak yang curam?</p></div><span class="step-symbol">↗</span></article>
+          <article class="guide-step"><span>03</span><div><h3>Kami bantu cocokkan</h3><p>Dapat rekomendasi ukuran dan tipe papan yang sesuai.</p></div><span class="step-symbol">↗</span></article>
+        </div>
+      </section>
+
+      <section class="closing-banner" id="kontak">
+        <div><span class="eyebrow"><span class="eyebrow-line"></span> OMBAK BERIKUTNYA SUDAH MENUNGGU</span><h2>Ketemu di laut, ya?</h2><p>Ceritakan papan impianmu. Kami bantu dari obrolan pertama.</p></div>
+        <a class="button button-primary whatsapp-link" href="#kontak" data-message="Halo Papan Ombak! Saya mau tanya soal papan surfing.">Mulai ngobrol <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#beranda" aria-label="Papan Ombak, kembali ke atas">
+        <span class="brand-name">Papan Surfing Semarang</span>
+        <span class="brand-sub">PAPAN SURFING</span>
+      </a>
+      <p>Temanmu di setiap pasang surut.</p>
+      <span class="footer-copy">© <span id="current-year"></span> Papan Surfing Semarang. Dibuat dengan rasa.</span>
+    </footer>
+    <a class="wa-float whatsapp-link" href="#kontak" data-message="Halo, saya ingin tanya soal papan surfing." aria-label="Chat WhatsApp">
+      <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 3.5C9.1 3.5 3.5 9.1 3.5 16c0 2.2.6 4.3 1.6 6.1L3.5 28.5l6.6-1.6c1.7.9 3.7 1.4 5.9 1.4 6.9 0 12.5-5.6 12.5-12.3C28.5 9.1 22.9 3.5 16 3.5Z" fill="#fff" stroke="#fff" stroke-width="1.4"/><path d="M12.3 10.2c-.3-.7-.6-.7-.9-.7h-.7c-.3 0-.7.1-1 .5-.4.4-1.3 1.3-1.3 3.1s1.4 3.6 1.6 3.9c.2.3 2.7 4.3 6.7 5.9 3.3 1.3 4 1 4.7 1 .7-.1 2.2-.9 2.5-1.8.3-.9.3-1.6.2-1.8-.1-.2-.3-.3-.7-.4-.3-.2-1.6-.8-1.9-.9-.3-.1-.5-.2-.7.1-.2.3-.8 1-1 1.2-.2.2-.4.3-.7.1a11.7 11.7 0 0 1-3.4-2.1 12.7 12.7 0 0 1-2.2-3c-.2-.3 0-.5.1-.7l.7-.8c.2-.2.3-.4.4-.7.2-.3.1-.5 0-.7l-.4-.9-1-2.3Z" fill="#25d366"/><circle cx="16" cy="16" r="12.5" fill="none" stroke="#fff" stroke-width="0"/></svg>
+    </a>
+    <dialog class="store-dialog" id="store-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-panel">
+        <button class="dialog-close" type="button" aria-label="Tutup keranjang dan checkout">×</button>
+        <section id="cart-view">
+          <span class="eyebrow"><span class="eyebrow-line"></span> PAPAN PILIHANMU</span>
+          <h2 class="dialog-title" id="dialog-title">Keranjang</h2>
+          <div class="cart-items" id="cart-items"></div>
+          <div class="cart-empty" id="cart-empty">Keranjangmu masih kosong. Yuk, pilih papan untuk ombak berikutnya.</div>
+          <div class="cart-summary">
+            <span>Subtotal papan</span><strong id="cart-subtotal">Rp 0</strong>
+          </div>
+          <p class="shipping-note">Ongkos kirim akan dikonfirmasi melalui WhatsApp sebelum pembayaran.</p>
+          <button class="button button-primary checkout-start" id="checkout-start" type="button" disabled>Lanjut ke checkout <span aria-hidden="true">→</span></button>
+        </section>
+        <section id="checkout-view" hidden>
+          <button class="dialog-back" id="back-to-cart" type="button">← Kembali ke keranjang</button>
+          <span class="eyebrow"><span class="eyebrow-line"></span> DATA PENGIRIMAN</span>
+          <h2 class="dialog-title">Checkout</h2>
+          <form id="checkout-form">
+            <label>Nama penerima<input name="name" autocomplete="name" required maxlength="100" /></label>
+            <label>Nomor telepon<input name="phone" type="tel" autocomplete="tel" required maxlength="30" /></label>
+            <label>Alamat lengkap<textarea name="address" autocomplete="street-address" required rows="3" maxlength="500"></textarea></label>
+            <div class="checkout-total"><span>Total papan (belum termasuk ongkir)</span><strong id="checkout-subtotal">Rp 0</strong></div>
+            <button class="button button-primary checkout-submit" type="submit">Lihat instruksi pembayaran <span aria-hidden="true">→</span></button>
+          </form>
+        </section>
+        <section id="payment-view" hidden>
+          <button class="dialog-back" id="back-to-checkout" type="button">← Ubah data pengiriman</button>
+          <div class="payment-tabs" role="tablist" aria-label="Metode pembayaran">
+            <button class="payment-tab is-active" type="button" role="tab" data-payment-method="bank" aria-selected="true">Transfer Bank</button>
+            <button class="payment-tab" type="button" role="tab" data-payment-method="qris" aria-selected="false">QRIS</button>
+          </div>
+          <div class="payment-panel payment-panel-bank" id="payment-panel-bank">
+            <span class="eyebrow"><span class="eyebrow-line"></span> TRANSFER BANK MANUAL</span>
+            <h2 class="dialog-title">Instruksi pembayaran</h2>
+            <p class="payment-intro">Pesanan belum dibayar. Transfer setelah memastikan ongkir dan ketersediaan barang dengan kami lewat WhatsApp.</p>
+            <div class="bank-details" id="bank-details"></div>
+          </div>
+          <div class="payment-panel payment-panel-qris hidden" id="payment-panel-qris">
+            <span class="eyebrow"><span class="eyebrow-line"></span> PEMBAYARAN QRIS</span>
+            <h2 class="dialog-title">Scan QRIS</h2>
+            <p class="payment-intro">Scan kode QR berikut dengan aplikasi e-wallet atau mobile banking kamu, lalu kirim bukti transfer ke kami lewat WhatsApp.</p>
+            <div class="qris-container" id="qris-container">
+              <div class="qris-placeholder" id="qris-placeholder">
+                <span class="qris-icon" aria-hidden="true">QR</span>
+                <p>Kode QRIS belum tersedia. Hubungi kami lewat WhatsApp untuk nomor rekening tujuan.</p>
+              </div>
+            </div>
+          </div>
+          <div class="checkout-total"><span>Total papan (ongkir dikonfirmasi terpisah)</span><strong id="payment-subtotal">Rp 0</strong></div>
+          <p class="payment-disclaimer">Pembayaran dan pesanan akan dikonfirmasi langsung oleh penjual. Website ini tidak memproses atau memverifikasi transfer secara otomatis.</p>
+          <button class="button button-primary checkout-submit" id="send-order" type="button">Kirim pesanan ke WhatsApp <span aria-hidden="true">↗</span></button>
+        </section>
+      </div>
+    </dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
